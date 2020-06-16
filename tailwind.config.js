@@ -19,7 +19,7 @@ module.exports = {
         cyan: "hsl(171, 66%, 44%)",
         lightBlue: "hsl(233, 100%, 69%)",
         light: "hsl(201, 11%, 66%)",
-        lightGray: "#dddddd"
+        lightGray: "rgb(245,247,248)"
       },
       maxWidth:{
         "half": "60%",
