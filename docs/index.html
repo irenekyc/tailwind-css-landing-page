@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>First Trial of Tailwind CSS</title>
+</head>
+<body>
+    <header>
+        <section id="hero" class="relative">
+            <div id="hero-bg" class="w-screen h-full absolute top-0 left-0">
+                <img src="assets/bg-header-desktop.png" alt="hero-bg">
+            </div>
+            <div id="hero-content h-full w-full absolute top-0 left-0 flex items-center justify-center ">
+                <div id="hero-content-container" class="wrapper text-center py-20">
+                    <div class="mx-auto h-20 w-20">
+                        <img src="assets/logo.svg" alt="clipboard">
+                    </div>
+                    <h1 class="text-4xl text-grayBlue py-3"> A history of everything you copy </h1>
+                    <p class="text-light leading-relaxed py-3 text-lg">Clipboard allows you to track and organize everything you 
+                        copy. Instantly access your clipboard on all your devices.</p>
+                    <div class="md:flex items-center justify-center">
+                        <button class="mb-5 rounded-xl bg-lightBlue text-white py-2 px-8 md:mr-10 md:mb-0">Download for iOS</button>
+                        <button class="rounded-xl bg-cyan text-white py-2 px-8">Download for Andriod</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="intro" class="wrapper text-center">
+            <h1 class="text-3xl text-grayBlue"> Keep track of your snippets</h1>
+            <p class="leading-relaxed text-light py-3 text-base">  Clipboard instantly stores any item you copy in the cloud, 
+              meaning you can access your snippets immediately on all your 
+              devices. Our Mac and iOS apps will help you organize everything.</p>
+
+        </section>
+
+        <section id="features" class="md:flex items-center justify-center py-10">
+            <div id="features-image" class="min-w-half mr-12 md:max-w-half">
+                <img class="ml--2"src="assets/image-computer.png" alt="computer">
+            </div>
+            <div id="features-content" class="flex-1 flex flex-col item-start p-10">
+                <div class="max-w-xs">
+                    <div class="mb-10">
+                        <h1 class="text-2xl">Quick Search</h1>
+                        <p class="text-light">Easily search your snippets by content, category, web address, application, and more.</p>
+                      </div>
+          
+                      <div class="mb-10">
+                      <h1 class="text-2xl">iCloud Sync</h1>
+                      <p class="text-light">Instantly saves and syncs snippets across all your devices.</p>
+                    </div>
+                    <div class="mb-10">
+                      <h1 class="text-2xl"> Complete History</h1>
+                      <p class="text-light">Retrieve any snippets from the first moment you started using the app.</p>
+                </div>
+     
+                </div>
+            </div>
+            
+        </section>
+
+        <section id="intro-2" class="wrapper py-10 text-center">
+            <h1 class="text-3xl"> Access Clipboard anywhere</h1>
+          <p class="text-light text-base p-3">Whether you’re on the go, or at your computer, you can access all your Clipboard 
+            snippets in a few simple clicks.</p>
+            <img src="assets/image-devices.png" class="my-10" alt="mobile devices">
+        </section>
+
+        <section id="features-2" class="container py-10 text-center">
+            <h3 class="text-3xl text-grayBlue"> Supercharge your workflow </h3>
+            <p class="text-light py-3 mb-10">We’ve got the tools to boost your productivity.</p>
+            <div class="md:flex justify-between items-start">
+                <div class="max-w-xs text-center sm:mb-3">
+                    <img class="mx-auto" src="assets/icon-blacklist.svg" alt="">
+                    <h4 class="text-xl py-5">Create blacklists</h1>
+                    <p class="text-light">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+                  </div>
+                  <div class="max-w-xs text-center sm:mb-3">
+                    <img class="mx-auto" src="assets/icon-text.svg" alt="">
+                  <h1 class="text-xl py-5">Plain text snippets</h1>
+                  <p class="text-light">Remove unwanted formatting from copied text for a consistent look.</p>
+                </div>
+                <div class="max-w-xs text-center">
+                  <img class="mx-auto" src="assets/icon-preview.svg" alt="">
+                  <h1 class="text-xl py-5"> Sneak preview</h1>
+                  <p class="text-light"> Quick preview of all snippets on your Clipboard for easy access.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="clients" class="container py-10">
+            <div class="flex justify-center flex-wrap items-center">
+                <img class="m-8 h-auto" src="assets/logo-google.png" alt="google is our trusted partner">
+                <img class="m-8 h-auto" src="assets/logo-ibm.png" alt="IMB is our trusted partner">
+                <img class="m-8 h-12"  src="assets/logo-microsoft.png" alt="microsoft is our trusted partner">
+                <img class="m-8 h12" src="assets/logo-hp.png" alt="hp is our trusted partner">
+                <img class="m-8 h-8" src="assets/logo-vector-graphics.png" alt="vector graphics is our trusted partner">
+            </div>
+
+        </section>
+
+        <section id="cta" class="wrapper py-10 text-center">
+            <h4 class="text-3xl"> Clipboard for iOS and Mac OS </h1>
+            <p class="text-light leading-relaxed py-3">  Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
+              and you’re ready to start adding to your clipboard.</p>
+            </div>
+              <div class="md:flex justify-center item-center">
+                  <button class="rounded-xl bg-cyan text-white py-3 px-8">Download for iOS</button>
+                  <button class="md:ml-10 md:mt-0 mt-5 rounded-xl bg-lightBlue text-white py-3 px-8" > Download for Mac</button>
+              </div>
+        </section>
+    </main>
+    <footer class="bg-lightGray py-10">
+
+    </footer>
+</body>
+</html>
