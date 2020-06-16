@@ -28,6 +28,9 @@
         margin: 0 auto;
     }
 }
+.main-font{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
 
 .rounded-xl{
     border-radius: 1.5rem;

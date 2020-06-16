@@ -8,6 +8,9 @@ module.exports = {
         sm: "2rem",
         lg: "3rem",
         xl: "4rem",
+      },
+      fontFamily:{
+        "main": ['Bai Jamjuree', "sans-serif"],
       }
     },   
     extend: {
